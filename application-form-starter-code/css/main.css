@@ -1,0 +1,229 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+/******************************************
+/* COLOURS
+/*******************************************/
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+  box-sizing: border-box;
+}
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+/* add type styles here */
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.grid-row {
+  margin: 0 20px;
+  padding-top: 25px
+}
+
+.grid-column {
+  float: left;
+  margin: 0;
+  padding: 0 20px;
+  /* match to .grid-container */
+}
+
+.grid-quarter {
+  width: 25%;
+}
+
+.grid-third {
+  width: 33.333%;
+}
+
+.grid-half {
+  width: 50%;
+}
+
+.grid-two-third {
+  width: 66.667%;
+}
+
+.grid-three-quarter {
+  width: 75%;
+}
+
+.grid-whole {
+  width: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+body {
+  width: 1200px;
+  height: 1000px;
+  font-family: 'Open Sans', 'Arvo';
+  font-weight: 300;
+}
+
+.background {
+  width: 1200px;
+  height: 10000px;
+  margin: 0 auto;
+  background: url('../images/background.png');
+}
+
+.form-container {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 800px;
+  margin: 0 auto;
+  font-family: avenir;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.form-header {
+  text-align: center;
+  background-color:lightgrey;
+  padding:20px;
+}
+
+.form-field {
+  padding:10px;
+  display:inline-block;
+  width:90%;
+}
+
+label {  
+  display:inline-block;
+  width: 100px;
+  height: 20px;
+}
+
+input {
+  background-color: #ffffe0;
+  border: lightgrey solid 1px;
+  height: 40px;
+  width: 160px;
+  border-radius: 5px 5px 5px 5px;
+  text-align: left;
+}
+
+span {
+margin: 105px;
+}
+
+ #address { 
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  width: 160px;
+}
+
+#experience {
+vertical-align: top;
+}
+
+#fullname {
+ padding-left:0;
+ border: red solid 5px; 
+} 
+
+#comments {
+vertical-align: top;
+}
+
+textarea {  
+  display: inline-block;
+  width: 500px;
+  height: 200px
+}
+
+
+h1 {
+  color: black;
+  margin: 0;
+  font-family: arvo;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: px;
+  font-family: arvo;
+}
+
+::-webkit-input-placeholder {
+   font-size: 12px;
+   text-align:center; 
+}
+
+input[type="number"] {
+  display:inline-block;
+  width: 80px;
+  margin-right:40px;
+}
+
+
+
+
+
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.is-visible {
+  display: block;
+}
+/******************************************
+/* ADDITIONAL STYLES
+
+input, textarea {
+  border:1px solid #ccc;
+  padding:10px;
+  width: 300px;
+}
+.textarea {
+  height: 200px;
+}
+.input[type="checkbox"] {
+  margin-top:10px;
+}
+input[type="submit"] {
+  width:auto;
+  background:black;
+  color:white;
+  border:0;
+  padding:10px;
+  font-size:15px;
+}
+
+}
+.site-footer {
+
+}
+
+
+/*******************************************/
